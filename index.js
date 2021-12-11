@@ -6,7 +6,7 @@ var app = express();
 var cors = require("cors");
 const formidableMiddleware = require("express-formidable");
 const { readFileSync } = require("fs");
-const PassportValidation = require("passport-validation");
+const PassportValidation = require("@metaworx/passport-validation");
 // app.use(express.static(path.join(__dirname, 'public')));
 
 /* ========================================================== 
